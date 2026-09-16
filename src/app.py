@@ -72,7 +72,7 @@ Respond ONLY with a valid JSON object in this exact format, no extra text, no ma
   "suggested_action": "One concrete recommendation for the trader"
 }}"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
 
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -107,7 +107,7 @@ def index():
 
 @app.route("/health")
 def health():
-    return jsonify({"status": "ok", "model": "gemini-2.0-flash"})
+    return jsonify({"status": "ok", "model": "gemini-3.6-flash"})
 
 
 @app.route("/api/stress-test", methods=["POST"])
