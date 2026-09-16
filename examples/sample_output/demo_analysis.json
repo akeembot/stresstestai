@@ -1,0 +1,48 @@
+{
+  "trade_summary": "Long NVDA ahead of earnings, expecting AI-driven revenue beat to push stock 10%+ higher within one week.",
+  "overall_verdict": "CAUTION",
+  "verdict_reason": "Buying into NVDA earnings has historically produced volatile outcomes. While AI tailwinds are real, the stock already prices in significant optimism, making a buy-the-rumor-sell-the-news reaction a material risk. Three similar setups showed mixed results with high volatility in all cases.",
+  "risk_score": 62,
+  "scenarios": [
+    {
+      "title": "NVDA Q2 2023 Earnings Beat",
+      "date": "August 2023",
+      "similarity": 91,
+      "what_happened": "NVDA reported Q2 FY2024 earnings with revenue of $13.5B vs $11.1B expected — a massive beat driven by data center AI demand. Stock had already rallied 200% YTD going into the report.",
+      "outcome": "POSITIVE",
+      "return_pct": 8.5,
+      "lesson": "When AI demand fundamentally surprises the street, even overbought stocks can push higher — but gains came after an initial dip."
+    },
+    {
+      "title": "NVDA Q3 2024 Earnings — Buy the Rumor",
+      "date": "November 2024",
+      "similarity": 78,
+      "what_happened": "NVDA beat estimates again with Blackwell GPU demand, but the stock had already priced in perfection. Despite a strong report, shares fell 2.5% after hours as guidance was only in-line, not a blowout.",
+      "outcome": "NEGATIVE",
+      "return_pct": -2.5,
+      "lesson": "When a stock trades at 35x forward earnings and 'good' is already priced in, even a beat can disappoint the market."
+    },
+    {
+      "title": "Meta AI Capex Surprise Q1 2024",
+      "date": "April 2024",
+      "similarity": 65,
+      "what_happened": "Meta raised capex guidance citing AI infrastructure spend. Stock dropped 15% despite a revenue beat because investors feared AI spending was outpacing monetization timelines.",
+      "outcome": "NEGATIVE",
+      "return_pct": -15.1,
+      "lesson": "AI enthusiasm can reverse violently when investors question ROI timelines — even for fundamentally strong businesses."
+    }
+  ],
+  "key_risks": [
+    "Earnings already priced in — NVDA trades at premium valuation leaving little room for disappointment",
+    "Buy-the-rumor-sell-the-news pattern has played out multiple times in 2024–2025",
+    "Macro sensitivity — any Fed commentary or bond yield spike during earnings week amplifies downside"
+  ],
+  "suggested_action": "Consider reducing position size to 50% of intended and placing a tight stop-loss 5% below entry. If holding through earnings, use options to define your risk rather than outright stock exposure.",
+  "timestamp": "2026-09-10T14:22:00Z",
+  "input": {
+    "trade_idea": "NVDA is about to report earnings and AI demand is still strong. I want to buy before the report expecting a 10%+ move up.",
+    "asset": "NVDA",
+    "direction": "long",
+    "timeframe": "1 week"
+  }
+}
